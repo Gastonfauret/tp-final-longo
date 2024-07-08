@@ -198,6 +198,48 @@ body {
     }
   }
 
+  article.formulario {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #F0B27A;   
+
+    section {      
+      gap: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 50%;
+      height: 65vh;
+      background-color: #F5CBA7;
+
+      h1 {
+        margin: 5px;
+      }
+
+      input {
+        font-family: 'Arial';       
+        width: 80%;
+        height: 5vh;
+        border: 0px;
+      }
+
+      textarea {
+        width: 80%;
+        height: 10vh;
+        border: 0px;
+        font-family: 'Arial'; 
+      }
+
+      button {
+        width: 81%;
+        height: 5vh;
+        background-color: #CD6155;
+        border: 0px;
+      }
+    }
+  }
+
 
   footer {
     width: "90%";
